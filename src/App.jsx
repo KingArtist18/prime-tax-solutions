@@ -1,8 +1,13 @@
+import Navbar from './components/Navbar'
+
 function App() {
   return (
-    <div>
-      <h1>Prime Tax Solutions</h1>
-      <p>Website coming soon...</p>
+    <div className="App">
+      <Navbar />
+      <main>
+        <h1>Prime Tax Solutions</h1>
+        <p>Website coming soon...</p>
+      </main>
     </div>
   )
 }
